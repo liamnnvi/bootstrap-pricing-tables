@@ -1,0 +1,214 @@
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#title {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+}
+.container {
+	margin-top: 20px;
+}
+#one, #two, #three, #four {
+	position: relative;
+	margin-top: 20px;
+}
+#one-list, #two-list, #three-list, #four-list {
+	position: relative;
+	margin-top: 20px;
+}
+#one .feat, #two .feat, #three .feat, #four .feat {
+	padding-bottom: 25px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+#one .feat h1, #two .feat h1, #three .feat h1, #four .feat {
+	font-weight: bold;
+}
+
+#one header {
+	position: relative;
+	padding-top: 28px;
+	background-color: #428bca;
+	text-align: center;
+	padding-bottom: 22px;
+	margin-bottom: 2px;
+}
+
+#two header {
+	padding-top: 28px;
+	background-color: #5cb85c;
+	text-align: center;
+	padding-bottom: 22px;
+	margin-bottom: 2px;
+}
+#three header {
+	padding-top: 28px;
+	background-color: #5bc0de;
+	text-align: center;
+	padding-bottom: 22px;
+	margin-bottom: 2px;
+}
+#four header {
+	padding-top: 28px;
+	background-color: #5996df;
+	text-align: center;
+	padding-bottom: 22px;
+	margin-bottom: 2px;
+}
+
+#one-list header {
+	padding-top: 28px;
+	background-color: #428bca;
+	text-align: center;
+	padding-bottom: 22px;
+}
+#two-list header {
+	padding-top: 28px;
+	background-color: #5cb85c;
+	text-align: center;
+	padding-bottom: 22px;
+}
+#three-list header {
+	padding-top: 28px;
+	background-color: #5bc0de;
+	text-align: center;
+	padding-bottom: 22px;
+}
+#four-list header {
+	padding-top: 28px;
+	background-color: #5996df;
+	text-align: center;
+	padding-bottom: 22px;
+}
+
+
+#one span, #two span, #three span, #four span {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+}
+#one i, #two i, #three i, #four i {
+	font-size: 100px;
+	color: #fff;
+}
+#one h1, #two h1, #three h1, #four h1 {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+#one-list span, #two-list span, #three-list span, #four-list span {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+}
+#one-list i, #two-list i, #three-list i, #four-list i {
+	font-size: 100px;
+	color: #fff;
+}
+#one-list h1, #two-list h1, #three-list h1, #four-list h1 {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+#one .btn-link {
+	width: 100%;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background-color: #428bca;
+}
+#two .btn-link {
+	width: 100%;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background-color: #5cb85c;
+}
+#three .btn-link {
+	width: 100%;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background-color: #5bc0de;
+}
+#four .btn-link {
+	width: 100%;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background-color: #5996df;
+}
+
+#one-list .btn-link {
+	width: 100%;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background-color: #428bca;
+
+}
+#two-list .btn-link {
+	width: 100%;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background-color: #5cb85c;
+
+}
+#three-list .btn-link {
+	width: 100%;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background-color: #5bc0de;
+
+}
+#four-list .btn-link {
+	width: 100%;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background-color: #5996df;
+}
+small {
+	color: #fff;
+}
+
+.list-group-item:first-child {
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.list-group-item:last-child {
+	margin-bottom: 0;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.list-group {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.list-group li i {
+	font-size: 16px !important;
+	color: #535353 !important;
+}
+.best {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	background-color: #d9534f;
+	padding: 10px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	text-align: center;
+	transform:rotate(-5deg);
+	-ms-transform:rotate(-5deg);
+	-moz-transform:rotate(-5deg);
+	-webkit-transform:rotate(-5deg);
+	z-index: 999;
+}
