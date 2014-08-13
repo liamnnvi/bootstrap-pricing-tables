@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Bootstrap Pricing Tables</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+   		<meta name="author" content="lfamedia.com">
+   		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<!-- Font Awesome CSS -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<h1 id="title">lfamedia.com / Bootstrap Pricing Tables.</h1>
+			<br />
+			<div class="row">
+				<div id="one" class="col-md-4">
+					<header>
+						<i class="fa fa-windows"></i>
+						<h1>Windows Hosting</h1>
+						<span>£58.99</span><small>/month</small>
+					</header>
+					<button type="button" class="btn btn-link">/ More Info</button>
+				</div>
+				<div id="two" class="col-md-4 feat-in-one">
+					<header class="feat">
+						<i class="fa fa-linux"></i>
+						<h1>Linux Hosting</h1>
+						<span>£36.91</span><small>/month</small>
+					</header>
+					<button type="button" class="btn btn-link">/ More Info</button>
+				</div>
+				<div id="three" class="col-md-4">
+					<div class="best">Best<br />Seller!</div>
+					<header>
+						<i class="fa fa-apple"></i>
+						<h1>OSX Hosting</h1>
+						<span>£48.96</span><small>/month</small>
+					</header>
+					<button type="button" class="btn btn-link">/ More Info</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div id="one" class="col-md-3">
+					<div class="best">Best<br />Seller!</div>
+					<header>
+						
+						<i class="fa fa-windows"></i>
+						<h1>Windows Hosting</h1>
+						<span>£58.99</span><small>/month</small>
+					</header>
+					<button type="button" class="btn btn-link">/ More Info</button>
+				</div>
+				<div id="two" class="col-md-3">
+					<header>
+						<i class="fa fa-linux"></i>
+						<h1>Linux Hosting</h1>
+						<span>£36.91</span><small>/month</small>
+					</header>
+					<button type="button" class="btn btn-link">/ More Info</button>
+				</div>
+				<div id="three" class="col-md-3 feat">
+					<header class="feat">
+						<i class="fa fa-apple"></i>
+						<h1>OSX Hosting</h1>
+						<span>£48.96</span><small>/month</small>
+					</header>
+					<button type="button" class="btn btn-link">/ More Info</button>
+				</div>
+				<div id="four" class="col-md-3">
+					<header>
+						<i class="fa fa-cloud"></i>
+						<h1>Cloud Hosting</h1>
+						<span>£63.92</span><small>/month</small>
+					</header>
+					<button type="button" class="btn btn-link">/ More Info</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="h3">Featured Table</h1>
+					Use <code>.feat</code> to enable a featured table.
+					<h2 class="h4">Example</h2>
+					<pre>
+&lt;div id="four" class="col-md-3"&gt;
+	&lt;header class="feat"&gt;
+		&lt;i class="fa fa-cloud"&gt;&lt;/i&gt;
+		&lt;h1&gt;Cloud Hosting&lt;/h1&gt;
+		&lt;span&gt;£63.92&lt;/span&gt;&lt;small&gt;/month&lt;/small&gt;
+	&lt;/header&gt;
+	&lt;button type="button" class="btn btn-link"&gt;/ More Info&lt;/button&gt;
+&lt;/div&gt;
+					</pre>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="h3">Best Seller</h1>
+					Use <code>.best</code> inside a <code>&lt;div&gt;</code> tag.
+					<h2 class="h4">Example</h2>
+					<pre>
+&lt;div id="four" class="col-md-3"&gt;
+	&lt;div class="best"&gt;Best&lt;br /&gt;Seller!&lt;/div&gt;
+	&lt;header&gt;
+		&lt;i class="fa fa-cloud"&gt;&lt;/i&gt;
+		&lt;h1&gt;Cloud Hosting&lt;/h1&gt;
+		&lt;span&gt;£63.92&lt;/span&gt;&lt;small&gt;/month&lt;/small&gt;
+	&lt;/header&gt;
+	&lt;button type="button" class="btn btn-link"&gt;/ More Info&lt;/button&gt;
+&lt;/div&gt;
+					</pre>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div id="one-list" class="col-md-3">
+					<div class="best">Best<br />Seller!</div>
+					<header>	
+						<i class="fa fa-windows"></i>
+						<h1>Windows Hosting</h1>
+						<span>£58.99</span><small>/month</small>
+					</header>
+					<ul class="list-group">
+  						<li class="list-group-item"><i class="fa fa-folder"></i>&nbsp; 50Gb Diskspace</li>
+  						<li class="list-group-item"><i class="fa fa-database"></i>&nbsp; 800 Mysql Databases</li>
+ 						<li class="list-group-item"><i class="fa fa-calendar"></i>&nbsp; 45Day Money Back Guarantee</li>
+ 						<li class="list-group-item"><i class="fa fa-phone"></i>&nbsp; 24/7 Phone Support</li>
+  						<li class="list-group-item"><i class="fa fa-bar-chart-o"></i>&nbsp; 99.999% Uptime Guarantee</li>
+					</ul>
+					<button type="button" class="btn btn-link">/ More Info</button>
+				</div>
+				<div id="two-list" class="col-md-3">
+					<div class="best">Best<br />Seller!</div>
+					<header>
+						<i class="fa fa-linux"></i>
+						<h1>Linux Hosting</h1>
+						<span>£36.91</span><small>/month</small>
+					</header>
+					<ul class="list-group">
+  						<li class="list-group-item"><i class="fa fa-folder"></i>&nbsp; 50Gb Diskspace</li>
+  						<li class="list-group-item"><i class="fa fa-database"></i>&nbsp; 800 Mysql Databases</li>
+ 						<li class="list-group-item"><i class="fa fa-calendar"></i>&nbsp; 45Day Money Back Guarantee</li>
+ 						<li class="list-group-item"><i class="fa fa-phone"></i>&nbsp; 24/7 Phone Support</li>
+  						<li class="list-group-item"><i class="fa fa-bar-chart-o"></i>&nbsp; 99.999% Uptime Guarantee</li>
+					</ul>
+					<button type="button" class="btn btn-link">/ More Info</button>
+				</div>
+				<div id="three-list" class="col-md-3">
+					<header>
+						<i class="fa fa-apple"></i>
+						<h1>OSX Hosting</h1>
+						<span>£48.96</span><small>/month</small>
+					</header>
+					<ul class="list-group">
+  						<li class="list-group-item"><i class="fa fa-folder"></i>&nbsp; 50Gb Diskspace</li>
+  						<li class="list-group-item"><i class="fa fa-database"></i>&nbsp; 800 Mysql Databases</li>
+ 						<li class="list-group-item"><i class="fa fa-calendar"></i>&nbsp; 45Day Money Back Guarantee</li>
+ 						<li class="list-group-item"><i class="fa fa-phone"></i>&nbsp; 24/7 Phone Support</li>
+  						<li class="list-group-item"><i class="fa fa-bar-chart-o"></i>&nbsp; 99.999% Uptime Guarantee</li>
+					</ul>
+					<button type="button" class="btn btn-link">/ More Info</button>
+				</div>
+				<div id="four-list" class="col-md-3">
+					<header>
+						<i class="fa fa-cloud"></i>
+						<h1>Cloud Hosting</h1>
+						<span>£63.92</span><small>/month</small>
+					</header>
+					<ul class="list-group">
+  						<li class="list-group-item"><i class="fa fa-folder"></i>&nbsp; 50Gb Diskspace</li>
+  						<li class="list-group-item"><i class="fa fa-database"></i>&nbsp; 800 Mysql Databases</li>
+ 						<li class="list-group-item"><i class="fa fa-calendar"></i>&nbsp; 45Day Money Back Guarantee</li>
+ 						<li class="list-group-item"><i class="fa fa-phone"></i>&nbsp; 24/7 Phone Support</li>
+  						<li class="list-group-item"><i class="fa fa-bar-chart-o"></i>&nbsp; 99.999% Uptime Guarantee</li>
+					</ul>
+					<button type="button" class="btn btn-link">/ More Info</button>
+				</div>
+			</div>
+		</div>
+
+		
+	</body>
+	</html>
