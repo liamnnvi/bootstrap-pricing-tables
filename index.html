@@ -10,12 +10,15 @@
    		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		<!-- Font Awesome CSS -->
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href="style.min.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="container">
-			<h1 id="title">lfamedia.com / Bootstrap Pricing Tables.</h1>
+			<h1 id="title">lfamedia.com / Bootstrap Pricing Tables. <small>v1.0.0</small></h1>
+			<br />
+			<h2 class="h4">Hex Colors</h2>
+			<code>.one</code> = <code>#428bca</code>, <code>.two</code> = <code>#5cb85c</code>, <code>.three</code> = <code>#5bc0de</code>, <code>.four</code> = <code>#5996df</code>, the same goes for *-list Ex. <code>.one-list</code>
 			<br />
 			<div class="row">
 				<div id="one" class="col-md-4">
@@ -108,7 +111,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h1 class="h3">Best Seller</h1>
-					Use <code>.best</code> inside a <code>&lt;div&gt;</code> tag.
+					Use <code>.best</code> inside a <code>&lt;div&gt;</code>
 					<h2 class="h4">Example</h2>
 					<pre>
 &lt;div id="four" class="col-md-3"&gt;
@@ -191,7 +194,32 @@
 				</div>
 			</div>
 		</div>
-
-		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="h3">Listing Table</h1>
+					<code>.one-list</code> <code>.two-list</code> <code>.three-list</code> <code>.four-list</code>
+					<h2 class="h4">Example</h2>
+					<pre>
+&lt;div id="one-list" class="col-md-3"&gt;
+	&lt;div class="best">Best&lt;br /&gt;Seller!&lt;/div&gt;
+		&lt;header&gt;
+			&lt;i class="fa fa-windows"&gt;&lt;/i&gt;
+			&lt;h1&gt;Windows Hosting&lt;/h1&gt;
+			&lt;span&gt;£58.99&lt;/span&gt;&lt;small&gt;/month&lt;/small&gt;
+		&lt;/header&gt;
+		&lt;ul class="list-group"&gt;
+  			&lt;li class="list-group-item"&gt;&lt;i class="fa fa-folder"&gt;&lt;/i&gt;&nbsp; 50Gb Diskspace&lt;/li&gt;
+  			&lt;li class="list-group-item"&gt;&lt;i class="fa fa-database"&gt;&lt;/i&gt;&nbsp; 800 Mysql Databases&lt;/li&gt;
+ 			&lt;li class="list-group-item"&gt;&lt;i class="fa fa-calendar"&gt;&lt;/i&gt;&nbsp; 45Day Money Back Guarantee&lt;/li&gt;
+ 			&lt;li class="list-group-item"&gt;&lt;i class="fa fa-phone"&gt;&lt;/i&gt;&nbsp; 24/7 Phone Support&lt;/li&gt;
+  			&lt;li class="list-group-item"&gt;&lt;i class="fa fa-bar-chart-o"&gt;&lt;/i&gt;&nbsp; 99.999% Uptime Guarantee<&lt;li&gt;
+		&lt;/ul&gt;
+		&lt;button type="button" class="btn btn-link"&gt;/ More Info&lt;/button&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+				</pre>
+			</div>
+		</div>
 	</body>
-	</html>
+</html>
